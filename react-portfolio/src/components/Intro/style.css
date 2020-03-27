@@ -1,0 +1,53 @@
+.intro {
+    background-color: #CBE6EA;
+    padding: 30px; 
+    text-align: center; 
+    display: inline-block; 
+    clear: left;  
+}
+.intro a{
+    color: #448B96; 
+}
+
+.intro a:hover{
+    color: darkgoldenrod;
+
+}
+
+.line {
+    border-top: 3px solid #032f4d; 
+    width: 10%; 
+    margin: 0 auto; 
+}
+
+button {
+    background-color:  #CBE6EA; 
+    border: 2px solid #032f4d; 
+    padding: 10px; 
+    margin: 10px; 
+    font-size: 15px; 
+}
+
+button a{
+    color: black; 
+}
+
+.header {
+    background-color: #CBE6EA;
+    position: relative; 
+}
+
+.about {
+    position: relative; 
+    background-image: url(/assets/imgs/mountain.jpg);
+    background-position: right; 
+    background-size: cover;
+    min-height: 450px; 
+    margin-top: 20px; 
+   margin-bottom: 20px; 
+   overflow: scroll; 
+}
+
+.about button a {
+    color: #032f4d;
+}
