@@ -4,7 +4,7 @@ import "./style.css";
 
 function Section(props) {
   return (
-    <div classname= "section">
+    <div className= "section">
        {props.children}
     </div>
   );
