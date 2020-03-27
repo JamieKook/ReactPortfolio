@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./style.css";
-import Container from "../Container";
 import Section from "../Section"; 
 import schoolList from "./schools.json"; 
 import EdCol from "../EdCol"; 

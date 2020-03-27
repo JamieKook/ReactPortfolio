@@ -1,34 +1,3 @@
-.ed {
-    padding: 30px; 
-    border: thick white solid;  
-    background-color: #CBE6EA; 
-    position: relative;
-    text-align: center; 
-}
-
-.descrip-contain{
-    display: flex; 
-    justify-content: center;
-}
-
-.descrip{
-    position: absolute;
-    bottom: 10%; 
-}
-
-.year-contain{
-    display: flex;
-    justify-content: center;
-}
-
-.year{
-    position: absolute;
-    bottom: 5%; 
-}
-
-.logo{
-    height: 100px; 
-}
 
 #education h1 {
     background-color: #CBE6EA;

@@ -1,22 +1,7 @@
 import React from "react";
 import "./style.css";
-import UofU from "./UofU.jpg"; 
-import Peabody from "./Peabody.jpg"; 
-import Vandy from "./vandy.jpg"; 
 
 function EdCol(props) {
-  const imageSrc= props.image;
-  let src= null;  
-  switch(imageSrc){
-    case "UofU": 
-      src= UofU; 
-    case "Peabody":
-      src= Peabody; 
-    case "Vandy":
-      src= Vandy; 
-  }
-
-
   return (
         <div className=" col-md-4 under ed">
             <img className="img-fluid" src={props.image}/>
