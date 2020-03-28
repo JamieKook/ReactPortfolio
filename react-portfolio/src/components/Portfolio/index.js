@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, {useState} from "react";
 import "./style.css";
 import Section from "../Section"; 
 import Project from "../Project"; 
