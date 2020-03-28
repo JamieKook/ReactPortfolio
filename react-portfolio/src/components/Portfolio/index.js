@@ -44,6 +44,10 @@ function Portfolio() {
         }
     }
 
+    const handleGoBackClick = ()=>{
+        setProjectInfoHidden({display: "none"}); 
+        setProjectListHidden({}); 
+    }
   return (
       <Section>
            <div id="portfolio">
@@ -81,7 +85,7 @@ function Portfolio() {
                         <div className="text-center buttongroup m-5">
                             <button className="btn btn-dark m-1"><a target="_blank" href={currentProject.linkapp} id="port-linkapp">View the application</a></button>
                             <button className="btn btn-dark m-1"><a target="_blank" href={currentProject.linkhub} id="port-linkhub">View the repository</a></button>
-                            <button className="btn btn-dark m-1" id="back"><a href="#portfolio">Back to Portfolio</a></button>
+                            <button onClick={handleGoBackClick} className="btn btn-dark m-1" id="back"><a href="#portfolio">Back to Portfolio</a></button>
                         </div>
                     </div>
                 </div>
