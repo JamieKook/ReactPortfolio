@@ -17,7 +17,7 @@ const [schools, setSchools]= useState(schoolList);
             <div className="row">
             {schools.map(school => (
                 <EdCol
-                    id={school.id}
+                    key={school.id}
                     image={school.image}
                     degree={school.degree}
                     name={school.name}

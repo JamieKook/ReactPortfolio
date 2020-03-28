@@ -1,43 +1,14 @@
 [
-    {"title": "Got Jobs", 
-        "descript": "This web application searches user-selected cities for job postings and for data about the quality of life in that city. Users can save and view favorite jobs.",
-        "role": "Collaborative project- responsible for all functions regarding the job search and map found in the script.js file.",
-        "tech": "This project utilizes javascript, css, bootstrap, Animate.css, jQuery, local storage, Mapquest’s static map api, The Muse’s job api, Teleport’s api, and Plot.ly.",
-        "img": "assets/imgs/GotJobs.png",
-        "linkapp":"https://jamiekook.github.io/GotJobs/" ,
-        "linkhub":"https://github.com/JamieKook/GotJobs",
-        "shortd": "Find your perfect job.",
-        "icon": "fas fa-search"
-    },
-    {"title": "Weather Dashboard", 
-        "descript": "This web application displays both current weather and the 5 day forecast of user-selected cities. It features automatic user-location finding and a saved search history.",
-        "role": "Solo project following a set of guidelines.",
-        "tech": "This project utilizes javascript, css, bootstrap, jQuery, local storage, Moment.js, Mapquest’s geocoding and static map apis, OpenWeather’s weather api and the navigator’s geolocation api.",
-        "img": "assets/imgs/dashboard.png",
-        "linkapp":"https://jamiekook.github.io/WeatherDashboard/" ,
-        "linkhub":"https://github.com/JamieKook/WeatherDashboard",
-        "shortd": "Find a location's current weather and 5-day forecast.",
-        "icon": "fas fa-cloud-sun"
-    },
-    {"title": "Numbers", 
-        "descript": "A game to teach children how to count using an abacus and displaying numbers in multiple representations.",
-        "role": "Passion project created independently.",
-        "tech": "This project utilizes javascript, css, bootstrap, Animate.css, jQuery, local storage, and Giphy's API.",
-        "img": "assets/imgs/numberswebpage.png",
-        "linkapp":"https://jamiekook.github.io./Numbers" ,
-        "linkhub":"https://github.com/JamieKook/Numbers",
-        "shortd": "Learn how to use an abacus.",
-        "icon": "fas fa-plus"
-    },
     {"title": "Employee Tracker", 
-        "descript": "This node commandline application allows users to view and update employees, "role"s, and departments.",
+        "descript": "This node commandline application allows users to view and update employees, roles, and departments.",
         "role": "Solo project following a set of guidelines",
         "tech": "This project utilizes javascript, node, mySQL, and the following npm packages: inquirer, mysql-promisifiy, console.table, and jest",
         "img": "assets/imgs/Employeetracker.png",
         "linkapp":"" ,
         "linkhub":"https://github.com/JamieKook/EmployeeTracker",
         "shortd": "Manage your Employees.",
-        "icon": "fas fa-tasks"
+        "icon": "fas fa-tasks",
+        "id": 0
     },
     {"title": "Burger Logger", 
         "descript": "This web application allows users to log burgers as avaialbe or eaten and store data in a mySQL database.",
@@ -47,7 +18,8 @@
         "linkapp":"https://gentle-cliffs-24688.herokuapp.com/" ,
         "linkhub":"https://github.com/JamieKook/BurgerLogger",
         "shortd": "Track delicious burgers.",
-        "icon": "fas fa-hamburger"
+        "icon": "fas fa-hamburger", 
+        "id": 1
     },
     {"title": "The Writer's Library", 
         "descript": "This web application allows users to share their writing with others and to give and receive feedback.",
@@ -57,6 +29,7 @@
         "linkapp":"https://morning-lake-48557.herokuapp.com/" ,
         "linkhub":"https://github.com/JamieKook/WriterLib",
         "shortd": "Use s3 to store and share your Stories",
-        "icon": "fas fa-book-open"
+        "icon": "fas fa-book-open",
+        "id": 2
     }
 ]
